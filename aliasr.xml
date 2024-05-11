@@ -1,0 +1,10 @@
+<configuration name="aliasr.conf" description="mod_asr configuration">
+    <settings>
+	    <!-- 阿里云Asr相关key参数 -->
+        <param name="appkey" value=""/>
+        <param name="akid" value=""/>
+        <param name="aksecret" value=""/>
+		<!-- 推送asr识别结果到接口 -->
+        <param name="pushUrl" value=""/>
+    </settings>
+</configuration>
