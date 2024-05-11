@@ -38,7 +38,7 @@ originate {origination_caller_id_name=955555,origination_caller_id_number=955555
 
 命令解释：使用955555号码呼叫分机4000并同时开启start_asr模块,等4000分机接通后播放start.wav音乐。
 
-## `mod_fun_asr模块事件结果`
+## `mod_asr模块事件结果`
 
 1.上面的命令执行成功以后，会不断地生成Asr识别的结果，分别通过Post json到接口或Esl事件方式通知。
 
