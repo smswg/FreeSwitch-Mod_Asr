@@ -93,7 +93,7 @@ Channel: sofia/external/linphone@192.168.31.210
 ​	
 
 ```
-{"call_info":{"call_id": "c8379b9a-2c21-41c7-9a65-3636a29e2fbe","caller": "955555","callee": "4000"},"asr_result": "安"}
+{"call_info":{"call_id": "53d041a0-d4b2-4823-b2a8-9e4f17278b27","caller": "95532","callee": "4000"},"asr_result": {"header":{"namespace":"SpeechTranscriber","name":"SentenceEnd","status":20000000,"message_id":"2a523d16dcb84bd2a25b00bab3e77586","task_id":"27ed402c190c41c3b1e9187b0c7969c0","status_text":"Gateway:SUCCESS:Success."},"payload":{"index":14,"time":122290,"result":"可不是","confidence":0.817,"words":[],"status":0,"gender":"","begin_time":121460,"fixed_result":"","unfixed_result":"","stash_result":{"sentenceId":15,"beginTime":122290,"text":"","fixedText":"","unfixedText":"","currentTime":122290,"words":[]},"audio_extra_info":"","sentence_id":"0d62c9afb08c41f8b3fdb0880b6bf167","gender_score":0.0}}}
 ```
 
 ​	
