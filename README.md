@@ -88,7 +88,7 @@ ASR-Response: {"is_final":false,"mode":"2pass-offline","stamp_sents":[{"end":387
 Channel: sofia/external/linphone@192.168.31.210
 ```
 
-​	 post json格式：
+​	 Http接口 post方式 json数据格式：
 
 ​	
 
