@@ -28,7 +28,8 @@ mod_asr.so是模块主程序，该模块需要授权，授权价格3K，模块�
 </configuration>
 ```
 
-3.修改/usr/local/freeswitch/conf/autoload_configs/modules.conf.xml 增加一行&#60;load module="mod_asr"/&#62;,重启fs系统生效模块。
+3.修改/usr/local/freeswitch/conf/autoload_configs/modules.conf.xml 
+增加一行<load module="mod_asr"/>,重启fs系统生效模块。
 
 4.模块使用命令如下:
 
