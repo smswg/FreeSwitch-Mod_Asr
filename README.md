@@ -18,7 +18,8 @@ mod_asr.so是模块主程序，该模块需要授权，授权价格3K，模块�
 ```
 <configuration name="aliasr.conf" description="mod_asr configuration">
     <settings>
-	    <!-- 阿里云Asr相关key参数 -->
+	    <!-- 阿里云Asr相关key参数 其中webSocketUrl默认为空,为空时直连阿里官网asr，不为空则为私有化Asr IP地址-->
+	<param name="webSocketUrl" value=""/>
         <param name="appkey" value=""/>
         <param name="akid" value=""/>
         <param name="aksecret" value=""/>
