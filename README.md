@@ -23,7 +23,7 @@ mod_asr.so是模块主程序，该模块需要授权，授权价格3K，模块�
         <param name="appkey" value=""/>
         <param name="akid" value=""/>
         <param name="aksecret" value=""/>
-		<!-- 推送asr识别结果到接口 -->
+		<!-- 推送asr识别结果到接口 此字段可以为空，不为空时模块会post识别结果到http接口-->
         <param name="pushUrl" value=""/>
     </settings>
 </configuration>
