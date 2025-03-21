@@ -1,10 +1,14 @@
 <configuration name="aliasr.conf" description="mod_asr configuration">
     <settings>
-	    <!-- 阿里云Asr相关key参数 -->
+	 <!-- 阿里云Asr私有化配置项 webSocketUrl默认为空-->       
+	<param name="webSocketUrl" value=""/>
+	<!-- 最大语音断句检测阈值默认800 合法参数范围200～2000-->
+	<param name="maxSentenceSilence" value="800"/>
+	 <!-- 阿里云Asr相关key参数-->   
         <param name="appkey" value=""/>
         <param name="akid" value=""/>
         <param name="aksecret" value=""/>
-		<!-- 推送asr识别结果到接口 -->
+	<!-- 推送asr识别结果到接口 为空则不推送 -->
         <param name="pushUrl" value=""/>
     </settings>
 </configuration>
