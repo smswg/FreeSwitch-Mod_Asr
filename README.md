@@ -4,7 +4,7 @@
 
 mod_asr.so是模块主程序，该模块需要授权，授权价格3K，模块一次性永久授权，包售后，可开发票。如有其他定制化模块需求，请加微信或进入https://www.callwg.com/ 了解更多详情。
 
-**如果您需要神经网络算法实现检测振铃音的无需ASR大模型，可以访问https://github.com/smswg/freeswitch-Mod_CheckPhon.git 来这个仓库看一下,或加客服了解。**
+**如果您需要神经网络算法实现检测振铃音的无需ASR大模型，可以访问https://github.com/smswg/freeswitch-Mod_CheckPhone 来这个仓库看一下,或加客服了解。**
 
 ![](https://www.callwg.com/templets/callgw/images/ma.png)
 
